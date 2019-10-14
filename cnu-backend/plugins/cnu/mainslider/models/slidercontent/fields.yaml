@@ -1,0 +1,73 @@
+fields:
+    title:
+        label: Título
+        span: full
+        placeholder: 'Título deste item de slide'
+        type: text
+        commentAbove: 'Título principal do slider'
+    subtitle:
+        label: Subtítulo
+        span: auto
+        type: text
+    link:
+        label: 'Link do botão principal'
+        span: auto
+        type: text
+    button_text:
+        label: 'Texto do botão'
+        span: auto
+        type: text
+    active:
+        label: 'Ativar Slide'
+        span: auto
+        placeholder: 'Se ativo, aparecerá na home.'
+        default: 1
+        type: switch
+    slide_image:
+        label: 'Imagem do slide (697px X 480px)'
+        mode: image
+        imageWidth: '697'
+        imageHeight: '480'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    show_seconds:
+        label: 'Exibir por quantos segundos?'
+        span: right
+        default: '5'
+        type: number
+tabs:
+    fields:
+        subtitle_color:
+            label: 'Cor do texto - subtítulo'
+            span: auto
+            default: '#282828'
+            type: colorpicker
+            tab: Cores
+        title_color:
+            label: 'Cor do texto - Título'
+            span: auto
+            default: '#282828'
+            type: colorpicker
+            tab: Cores
+        background_color:
+            label: 'Cor do fundo do slide'
+            span: auto
+            default: '#FFFFFF'
+            type: colorpicker
+            tab: Cores
+        button_background_color:
+            label: 'Cor do fundo do botão'
+            span: auto
+            default: '#00995D'
+            type: colorpicker
+            tab: Cores
+        button_content_color:
+            label: 'Cor do conteúdo do botão'
+            span: auto
+            default: '#FFFFFF'
+            type: colorpicker
+            tab: Cores

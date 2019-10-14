@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: Título
+        type: text
+    description:
+        label: Descrição
+        type: text
+    active:
+        label: 'Ativo?'
+        type: text
+    type:
+        label: Tipo
+        relation: type
+        select: title

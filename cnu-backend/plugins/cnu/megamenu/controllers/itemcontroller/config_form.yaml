@@ -1,0 +1,10 @@
+name: ItemController
+form: $/cnu/megamenu/models/item/fields.yaml
+modelClass: cnu\MegaMenu\Models\Item
+defaultRedirect: cnu/megamenu/itemcontroller
+create:
+    redirect: 'cnu/megamenu/itemcontroller/update/:id'
+    redirectClose: cnu/megamenu/itemcontroller
+update:
+    redirect: cnu/megamenu/itemcontroller
+    redirectClose: cnu/megamenu/itemcontroller

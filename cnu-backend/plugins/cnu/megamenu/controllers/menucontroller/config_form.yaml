@@ -1,0 +1,10 @@
+name: MenuController
+form: $/cnu/megamenu/models/menu/fields.yaml
+modelClass: cnu\MegaMenu\Models\Menu
+defaultRedirect: cnu/megamenu/menucontroller
+create:
+    redirect: 'cnu/megamenu/menucontroller/update/:id'
+    redirectClose: cnu/megamenu/menucontroller
+update:
+    redirect: cnu/megamenu/menucontroller
+    redirectClose: cnu/megamenu/menucontroller

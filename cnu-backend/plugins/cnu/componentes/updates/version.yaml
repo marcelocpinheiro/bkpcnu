@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cnu_componentes_content'
+    - builder_table_create_cnu_componentes_content.php

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cnu_sessoes_section'
+    - builder_table_create_cnu_sessoes_section.php
+1.0.3:
+    - 'Created table cnu_sessoes_columns'
+    - builder_table_create_cnu_sessoes_columns.php
+1.0.4:
+    - 'Updated table cnu_sessoes_section'
+    - builder_table_update_cnu_sessoes_section.php
+1.0.5:
+    - 'Updated table cnu_sessoes_columns'
+    - builder_table_update_cnu_sessoes_columns.php

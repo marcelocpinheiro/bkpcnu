@@ -1,0 +1,13 @@
+columns:
+    title:
+        label: Título
+        type: text
+    route:
+        label: Rota
+        type: text
+    type:
+        label: Tipo
+        type: text
+    active:
+        label: 'Ativa?'
+        type: text

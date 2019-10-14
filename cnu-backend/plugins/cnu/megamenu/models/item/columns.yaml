@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: Título
+        type: text
+    url:
+        label: URL
+        type: text
+    active:
+        label: Ativo
+        type: text
+    category:
+        label: Categoria
+        relation: category
+        select: title

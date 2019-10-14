@@ -1,0 +1,17 @@
+.page-finder{
+    &__title_container{
+        width: 100%;
+        background-color: #ECECEC;
+        height: 200px;
+    }
+
+    &__wrapper{
+        position: relative;
+        height: 100%;
+    }
+
+    &__title{
+        position: absolute;
+        bottom: 0;
+    }
+}

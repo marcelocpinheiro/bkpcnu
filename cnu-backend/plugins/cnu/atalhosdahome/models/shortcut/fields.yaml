@@ -1,0 +1,43 @@
+fields:
+    title:
+        label: 'Título do atalho'
+        span: auto
+        placeholder: 'Insira o título deste atalho'
+        type: text
+    description:
+        label: 'Descrição do atalho'
+        span: auto
+        placeholder: 'Insira o subtitulo do atalho'
+        type: text
+    hint1:
+        span: full
+        readOnly: 0
+        path: $/cnu/atalhosdahome/_dica.html
+        type: hint
+    icon:
+        label: 'Ícone do atalho'
+        span: auto
+        placeholder: 'uil uil-comment-alt-plus'
+        type: text
+        comment: 'O valor inserido deve ser um UNICON válido'
+    link:
+        label: 'Link do atalho'
+        span: auto
+        placeholder: /link
+        type: text
+    active:
+        label: 'Ativar atalho?'
+        span: auto
+        type: switch
+    background_color:
+        label: 'Cor de fundo do atalho'
+        span: auto
+        type: colorpicker
+    type:
+        label: 'Tipo do atalho'
+        nameFrom: title
+        descriptionFrom: description
+        emptyOption: 'Selecione um tipo do atalho'
+        span: full
+        type: relation
+        comment: 'Selecione o tipo deste atalho'

@@ -1,0 +1,20 @@
+plugin:
+    name: 'cnu.sessoes::lang.plugin.name'
+    description: 'cnu.sessoes::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-columns
+    homepage: ''
+navigation:
+    sections:
+        label: 'Sessões do site'
+        url: cnu/sessoes/sectioncontroller
+        icon: icon-columns
+        sideMenu:
+            sessoes:
+                label: Sessões
+                url: cnu/sessoes/sectioncontroller
+                icon: icon-square
+            columns:
+                label: Colunas
+                url: cnu/sessoes/columncontroller
+                icon: icon-columns

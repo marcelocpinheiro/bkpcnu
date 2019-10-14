@@ -1,0 +1,117 @@
+@import '../../../assets/scss/base.scss';
+
+.slider{
+    height: 480px;
+    width: 100%;
+
+    &__item{
+        display: flex;
+        position: absolute;
+        height: 480px;
+        width: 98%;
+
+        &.active{
+            display: flex;
+            transition: all 1s ease;
+            opacity: 1;
+        }
+
+        &.toEnter{
+            left: 200%;
+            display: flex;
+            opacity: 0;
+        }
+
+        &.leaving{
+            transform: translateX(-200%);
+            opacity: 0;
+            transition: all 2s ease;
+        }
+
+        &.entering{
+            transform: translateX(-200%);
+            transition: all 2s ease;
+            display: flex;
+            opacity: 0;
+        }
+        
+        &.inactive{
+            opacity: 0;
+            transition: all 1s ease;
+        }
+    }
+
+    &__container{
+        position: relative;
+    }
+
+    &__progress-pin{
+        width: 100%;
+        background-color: #EEE;
+        opacity: 0.3;
+    }
+
+    &__pins{
+        height: 100%;
+        width: 8px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 10px;
+
+        &_item{
+            width: 100%;
+            height: 48px;
+            background-color: rgba(177,211,75,0.5);
+            margin-top: 5.36px;
+            cursor: pointer;
+            position: relative;
+
+            &.active{
+                background-color: map-get($green, 'green-01');
+            }
+        }
+
+        &_image{
+            height: 100%;
+            left: -75px;
+            position: absolute;
+            top: 0;
+            opacity: 1;
+            transition: opacity 0.4s ease;
+
+            &.hidden{
+                opacity: 0;
+                transition: opacity 0.4s ease;
+            }
+        }
+    }
+
+    &__image_container{
+        flex: 65%;
+
+        & img{
+            width: 697px;
+            height: 480px;
+        }
+    }
+
+    &__text_container{
+        flex: 35%;
+        margin-top: 87px;
+        & h1{
+            font-family: 'Unimed Slab';
+            font-weight: bold;
+            font-style: normal;
+            font-size: $font_title;
+            letter-spacing: 1.2px;
+            line-height: 56px;
+            color: map-get($grey, 'grey-03');
+        }
+
+        & p{
+            font-family: 'Unimed Sans';
+            font-size: $font_big;
+        }
+    }
+}

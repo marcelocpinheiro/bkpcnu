@@ -1,0 +1,31 @@
+<div class="slider">
+  <div [ngStyle]="{'background-color': containerBackgroundColor, 'height': '480px', 'transition': 'background 1s ease'}">
+    <div class="slider__container container">
+      <div *ngFor="let slide of slides; let i = index" class="slider__item"
+      [class.active]="active(i)"
+      [class.inactive]="inactive(i)"
+      [class.leaving]="leaving(i)"
+      [class.entering]="entering(i)">
+        <div class="slider__text_container">
+          <h1 [ngStyle]="{'color': slide.title_color}">{{ slide.title }}</h1>
+          <p [ngStyle]="{'color': slide.subtitle_color}">{{ slide.subtitle }}</p>
+          <button class="primary-button" [ngStyle]="{'background-color': slide.button_background_color, 'color': slide.button_content_color}">{{ slide.button_text }} <i class='uil uil-angle-right-b'></i></button>
+        </div>
+        <div class="slider__image_container">
+          <img src="{{ slide.slide_image.path }}" class="slider__image" />
+        </div>
+      </div>
+      <div class="slider__pins">
+            <div class="slider__pins_item" 
+            *ngFor="let slide of slides; let i = index" 
+            [class.active]="i == activeSlide" 
+            (click)="changeActiveSlide(i)"
+            (mouseenter)="thumbnailToShow = i"
+            (mouseleave)="thumbnailToShow = null">
+                <img src="{{slide.slide_image.path}}" class="slider__pins_image" [class.hidden]="!showThumb(i)">
+                <div class="slider__progress-pin" *ngIf="i === activeSlide" [ngStyle]="{'height': progressHeight + '%', 'transition': 'height 0.5s ease'}" ></div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>

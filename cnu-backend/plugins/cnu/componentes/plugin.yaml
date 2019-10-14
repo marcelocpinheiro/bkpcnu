@@ -1,0 +1,11 @@
+plugin:
+    name: 'cnu.componentes::lang.plugin.name'
+    description: 'cnu.componentes::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    components:
+        label: Componentes
+        url: cnu/componentes/contentcontroller
+        icon: icon-life-ring

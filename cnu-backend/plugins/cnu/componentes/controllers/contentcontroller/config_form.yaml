@@ -1,0 +1,10 @@
+name: ContentController
+form: $/cnu/componentes/models/content/fields.yaml
+modelClass: cnu\Componentes\Models\Content
+defaultRedirect: cnu/componentes/contentcontroller
+create:
+    redirect: 'cnu/componentes/contentcontroller/update/:id'
+    redirectClose: cnu/componentes/contentcontroller
+update:
+    redirect: cnu/componentes/contentcontroller
+    redirectClose: cnu/componentes/contentcontroller

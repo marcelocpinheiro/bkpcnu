@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: Título
+        type: text
+        sortable: true
+    link:
+        label: link
+        type: text
+    active:
+        label: active
+        type: text

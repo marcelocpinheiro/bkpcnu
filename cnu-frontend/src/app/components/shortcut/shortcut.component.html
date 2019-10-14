@@ -1,0 +1,25 @@
+<div class="shortcut">
+  <div class="container">
+    <div class="shortcut__types_container">
+      
+      <div *ngFor="let type of shortcutTypes; let i = index" 
+      class="shortcut__type" 
+      [class.active]="type.id === activeType"
+      (click)="setActiveType(type.id)">
+        {{type.title}}
+      </div>
+    </div>
+    <div class="shortcut__shortcuts">
+        <div *ngFor="let shortcut of shortcuts" class="shortcut__shortcuts_item">
+            <div class="shortcut__shortcuts_item_container">
+                <div class="background" [ngStyle]="{'background-color': shortcut.background_color}"></div>
+                <div class="icon">
+                    <i class="{{shortcut.icon}}"></i>
+                </div>
+                <div class="title">{{shortcut.title}}</div>
+                <div class="description">{{shortcut.description}}</div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+name: ContentSliderController
+modelClass: cnu\MainSlider\Models\SliderContent
+form: $/cnu/mainslider/models/slidercontent/fields.yaml
+defaultRedirect: cnu/mainslider/contentslidercontroller
+create:
+    redirect: 'cnu/mainslider/contentslidercontroller/update/:id'
+    redirectClose: cnu/mainslider/contentslidercontroller
+update:
+    redirect: cnu/mainslider/contentslidercontroller
+    redirectClose: cnu/mainslider/contentslidercontroller
+preview: {  }

@@ -1,0 +1,7 @@
+fields:
+    title:
+        label: 'Título do menu'
+        span: auto
+        placeholder: 'Meu menu'
+        type: text
+        comment: 'Menu principal, posicionado no header'

@@ -1,0 +1,19 @@
+fields:
+    section_name:
+        label: 'Nome sessão'
+        span: auto
+        placeholder: '"Footer" "Sidemenu"'
+        type: text
+        comment: 'Nome da sessão do site'
+    slug:
+        label: 'Acesso busca'
+        span: auto
+        preset:
+            field: section_name
+            type: slug
+        type: text
+    description:
+        label: 'Descrição da sessão'
+        size: ''
+        span: full
+        type: textarea

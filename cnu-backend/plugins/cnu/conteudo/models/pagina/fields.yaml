@@ -1,0 +1,38 @@
+fields:
+    title:
+        label: 'Título da página'
+        span: auto
+        placeholder: 'Página espetacular'
+        type: text
+    route:
+        label: 'Url da página'
+        span: auto
+        placeholder: /pagina/linda
+        defaultFrom: title
+        type: text
+        comment: 'Url que será acessada para exibir esta página'
+    active:
+        label: 'Ativar página?'
+        span: auto
+        type: switch
+        comment: 'Caso não ative, ela ficará como rascunho e retornara "Não encontrada" caso acessada'
+    type:
+        label: 'Tipo da página'
+        options:
+            'Página estática': static
+            'Lista de Links': link_list
+            Blog: blog
+        emptyOption: Selecione
+        showSearch: true
+        span: auto
+        type: dropdown
+    content:
+        label: 'Conteúdo da página'
+        size: ''
+        span: full
+        placeholder: 'Insira o conteúdo da página'
+        trigger:
+            action: show
+            field: richeditor1
+            condition: ''
+        type: richeditor

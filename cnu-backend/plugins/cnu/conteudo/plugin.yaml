@@ -1,0 +1,16 @@
+plugin:
+    name: 'cnu.conteudo::lang.plugin.name'
+    description: 'cnu.conteudo::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-edit
+    homepage: ''
+navigation:
+    paginas:
+        label: Conteúdo
+        url: cnu/conteudo/paginacontroller
+        icon: icon-file
+        sideMenu:
+            pagina:
+                label: Página
+                url: cnu/conteudo/paginacontroller
+                icon: icon-file

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cnu_megamenu_item'
+    - builder_table_create_cnu_megamenu_item.php
+1.0.3:
+    - 'Created table cnu_megamenu_category'
+    - builder_table_create_cnu_megamenu_category.php
+1.0.4:
+    - 'Created table cnu_megamenu_menu'
+    - builder_table_create_cnu_megamenu_menu.php
+1.0.5:
+    - 'Updated table cnu_megamenu_item'
+    - builder_table_update_cnu_megamenu_item.php

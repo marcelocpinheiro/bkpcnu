@@ -1,0 +1,24 @@
+fields:
+    section:
+        label: 'Sessão da coluna'
+        nameFrom: section_name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    component:
+        label: 'Componente da coluna'
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    width:
+        label: Largura
+        span: auto
+        placeholder: 'Caso vazio, a largura será automaticamente setada'
+        type: text
+        comment: 'Possíveis usos: px, %'
+    active:
+        label: 'Coluna ativa?'
+        span: auto
+        default: 1
+        type: switch

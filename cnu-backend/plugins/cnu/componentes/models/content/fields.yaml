@@ -1,0 +1,14 @@
+fields:
+    title:
+        label: 'Título do componente'
+        span: auto
+        type: text
+    show_title:
+        label: 'Exibir título ao renderizar componente?'
+        span: auto
+        type: switch
+    content:
+        label: 'Conteúdo do componente'
+        size: huge
+        span: full
+        type: richeditor

@@ -1,0 +1,12 @@
+list: $/cnu/componentes/models/content/columns.yaml
+modelClass: cnu\Componentes\Models\Content
+title: ContentController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'cnu/componentes/contentcontroller/update/:id'

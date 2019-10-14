@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-Light.woff2') format('woff2'),
+        url('UnimedSlab-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-RegularItalic.woff2') format('woff2'),
+        url('UnimedSlab-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-Black.woff2') format('woff2'),
+        url('UnimedSlab-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-SemiBold.woff2') format('woff2'),
+        url('UnimedSlab-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-Bold.woff2') format('woff2'),
+        url('UnimedSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab Book';
+    src: url('UnimedSlab-BookItalic.woff2') format('woff2'),
+        url('UnimedSlab-BookItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-BlackItalic.woff2') format('woff2'),
+        url('UnimedSlab-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-LightItalic.woff2') format('woff2'),
+        url('UnimedSlab-LightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-ExtraBoldItalic.woff2') format('woff2'),
+        url('UnimedSlab-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-SemiBoldItalic.woff2') format('woff2'),
+        url('UnimedSlab-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-ExtraBold.woff2') format('woff2'),
+        url('UnimedSlab-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-Regular.woff2') format('woff2'),
+        url('UnimedSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unimed Slab';
+    src: url('UnimedSlab-BoldItalic.woff2') format('woff2'),
+        url('UnimedSlab-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unimed Slab Book';
+    src: url('UnimedSlab-Book.woff2') format('woff2'),
+        url('UnimedSlab-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

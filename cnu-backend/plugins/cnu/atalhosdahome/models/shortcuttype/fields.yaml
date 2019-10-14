@@ -1,0 +1,11 @@
+fields:
+    title:
+        label: 'Título do tipo de atalho'
+        span: auto
+        placeholder: 'Insira o título do atalho'
+        type: text
+    description:
+        label: 'Descrição do tipo de atalho'
+        span: auto
+        placeholder: 'Descreva o tipo de atalho'
+        type: text

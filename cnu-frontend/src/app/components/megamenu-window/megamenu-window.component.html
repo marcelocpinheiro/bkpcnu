@@ -1,0 +1,30 @@
+<div
+  class="megamenu-window"
+  [class.active]="data !== false"
+  (mouseenter)="show()"
+  (mouseleave)="cancel()"
+>
+  <div class="megamenu-window__wrapper">
+    <div class="container">
+      <div class="megamenu-window__title">
+        {{ data.title }}
+        <i class='uil uil-multiply' (click)="cancel()"></i>
+      </div>
+      <div class="megamenu-window__item-container">
+        <div
+          class="megamenu-window__item"
+          *ngFor="let category of data.categories"
+        >
+          <div class="megamenu-window__category-title">
+            {{ category.title }}
+          </div>
+          <div class="megamenu-window__category-items">
+              <div *ngFor="let item of category.items" class="megamenu-window__link">
+                    <a href="{{item.url}}">{{item.title}}</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

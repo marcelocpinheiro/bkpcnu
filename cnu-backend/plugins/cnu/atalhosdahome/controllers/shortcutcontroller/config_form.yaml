@@ -1,0 +1,10 @@
+name: ShortcutController
+form: $/cnu/atalhosdahome/models/shortcut/fields.yaml
+modelClass: cnu\AtalhosDaHome\Models\Shortcut
+defaultRedirect: cnu/atalhosdahome/shortcutcontroller
+create:
+    redirect: 'cnu/atalhosdahome/shortcutcontroller/update/:id'
+    redirectClose: cnu/atalhosdahome/shortcutcontroller
+update:
+    redirect: cnu/atalhosdahome/shortcutcontroller
+    redirectClose: cnu/atalhosdahome/shortcutcontroller

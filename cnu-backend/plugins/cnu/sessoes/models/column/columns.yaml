@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+    width:
+        label: width
+        type: text
+    component:
+        label: Componente
+        relation: component
+        select: title
+    section:
+        label: Sessão
+        relation: section
+        select: section_name
+

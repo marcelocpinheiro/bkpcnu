@@ -1,0 +1,11 @@
+plugin:
+    name: 'cnu.mainslider::lang.plugin.name'
+    description: 'cnu.mainslider::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-file-photo-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Header Slider'
+        url: cnu/mainslider/contentslidercontroller
+        icon: icon-photo

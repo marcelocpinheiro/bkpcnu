@@ -1,0 +1,10 @@
+name: PaginaController
+form: $/cnu/conteudo/models/pagina/fields.yaml
+modelClass: cnu\Conteudo\Models\Pagina
+defaultRedirect: cnu/conteudo/paginacontroller
+create:
+    redirect: 'cnu/conteudo/paginacontroller/update/:id'
+    redirectClose: cnu/conteudo/paginacontroller
+update:
+    redirect: cnu/conteudo/paginacontroller
+    redirectClose: cnu/conteudo/paginacontroller

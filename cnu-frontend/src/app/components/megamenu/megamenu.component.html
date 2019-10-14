@@ -1,0 +1,10 @@
+<div class="megamenu">
+    <div class="megamenu__items-container">
+        <div *ngFor="let menu of menus; let i = index" 
+        class="megamenu__item"
+        (mouseenter)="openMenu(i)">
+            {{menu.title}}
+            <div class="megamenu__arrow-up"></div>
+        </div>
+    </div>
+</div>

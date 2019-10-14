@@ -1,0 +1,25 @@
+@import '../../../assets/scss/base.scss';
+
+.search-input{
+    width: 100%;
+    background-color: $white;
+    border-radius: 8px;
+    height: 57px; 
+    display: flex;
+    align-items: center;
+    font-size: $font_big;
+
+    &__control{
+        height: 100%;
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    & i{
+        margin: 16.5px;
+        font-size: 25px;
+        color: map-get($grey, 'grey-02');
+    }
+}

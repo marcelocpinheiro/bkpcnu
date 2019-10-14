@@ -1,0 +1,7 @@
+columns:
+    section_name:
+        label: section_name
+        type: text
+    description:
+        label: description
+        type: text

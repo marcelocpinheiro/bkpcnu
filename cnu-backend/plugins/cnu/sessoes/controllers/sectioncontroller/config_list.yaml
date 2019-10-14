@@ -1,0 +1,12 @@
+list: $/cnu/sessoes/models/section/columns.yaml
+modelClass: cnu\Sessoes\Models\Section
+title: SectionController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'cnu/sessoes/sectioncontroller/update/:id'

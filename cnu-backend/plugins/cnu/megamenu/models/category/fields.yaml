@@ -1,0 +1,21 @@
+fields:
+    title:
+        label: Título
+        span: auto
+        placeholder: 'Minha categoria'
+        type: text
+    menu:
+        label: 'A qual menu pertence esta categoria?'
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    has_url:
+        label: 'Esta categoria tem um link?'
+        span: auto
+        default: 1
+        type: switch
+    url:
+        label: 'Qual o link? (Deixar vazio caso não se aplique)'
+        span: auto
+        type: text

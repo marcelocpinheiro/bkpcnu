@@ -1,0 +1,24 @@
+plugin:
+    name: 'cnu.megamenu::lang.plugin.name'
+    description: 'cnu.megamenu::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    megamenu:
+        label: 'Mega Menu'
+        url: cnu/megamenu/menucontroller
+        icon: icon-list
+        sideMenu:
+            side-menu-item-menu:
+                label: 'Menus principais'
+                url: cnu/megamenu/menucontroller
+                icon: icon-link
+            side-menu-item-category:
+                label: Categorias
+                url: cnu/megamenu/categorycontroller
+                icon: icon-th
+            side-menu-item-item:
+                label: 'Item de menu'
+                url: cnu/megamenu/itemcontroller
+                icon: icon-external-link

@@ -1,0 +1,10 @@
+name: SectionController
+form: $/cnu/sessoes/models/section/fields.yaml
+modelClass: cnu\Sessoes\Models\Section
+defaultRedirect: cnu/sessoes/sectioncontroller
+create:
+    redirect: 'cnu/sessoes/sectioncontroller/update/:id'
+    redirectClose: cnu/sessoes/sectioncontroller
+update:
+    redirect: cnu/sessoes/sectioncontroller
+    redirectClose: cnu/sessoes/sectioncontroller

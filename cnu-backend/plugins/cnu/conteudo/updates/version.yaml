@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cnu_conteudo_pagina'
+    - builder_table_create_cnu_conteudo_pagina.php
+1.0.3:
+    - 'Updated table cnu_conteudo_pagina'
+    - builder_table_update_cnu_conteudo_pagina.php

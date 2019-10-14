@@ -1,0 +1,77 @@
+@import '../../../assets/scss/base.scss';
+
+.megamenu-window{
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 100%;
+    background-color: $white;
+    z-index: 1100;
+    transition: height 1s ease;
+    overflow: hidden;
+    
+
+    &__wrapper{
+        background-color: rgba(207,211,214,0.2);
+        height: 100%;
+        width: 100%;
+    }
+
+    &.active{
+        transition: height 1s ease;
+        height: 576px;
+        box-shadow: 0 0 2px 0 rgba(141,141,148,0.16), 0 2px 6px -4px rgba(141,141,148,0.48);
+
+        & .megamenu-window__wrapper{
+            padding-top: 37.5px;
+            & .container .megamenu-window__title i{
+                display: block;
+            }
+        }
+
+
+    }
+
+    &__title{
+        width: 100%;
+        font-family: 'Unimed Slab';
+        font-weight: 600;
+        color: map-get($grey, 'grey-02');
+        font-size: $font_menu_title;
+
+        & i{
+            cursor: pointer;
+            float: right;
+            display: none;
+        }
+    }
+
+    &__item-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        width: 300px;
+        padding-top: 40px;
+    }
+
+    &__category-title{
+        color: map-get($green, 'green-01');
+        font-size: $font_bigger;
+        font-weight: bold;
+        font-family: 'Unimed Sans';
+    }
+
+    &__link a{
+        font-family: 'Unimed Sans';
+        color: map-get($grey, 'grey-03');
+        font-size: $font_big;
+
+        &:hover{
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}

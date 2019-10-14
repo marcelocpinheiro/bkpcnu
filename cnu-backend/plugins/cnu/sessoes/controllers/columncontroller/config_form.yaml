@@ -1,0 +1,10 @@
+name: ColumnController
+form: $/cnu/sessoes/models/column/fields.yaml
+modelClass: cnu\Sessoes\Models\Column
+defaultRedirect: cnu/sessoes/columncontroller
+create:
+    redirect: 'cnu/sessoes/columncontroller/update/:id'
+    redirectClose: cnu/sessoes/columncontroller
+update:
+    redirect: cnu/sessoes/columncontroller
+    redirectClose: cnu/sessoes/columncontroller

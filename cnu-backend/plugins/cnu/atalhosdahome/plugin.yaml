@@ -1,0 +1,25 @@
+plugin:
+    name: 'cnu.atalhosdahome::lang.plugin.name'
+    description: 'cnu.atalhosdahome::lang.plugin.description'
+    author: cnu
+    icon: oc-icon-rocket
+    homepage: ''
+navigation:
+    atalho-home:
+        label: 'Atalhos da home'
+        url: cnu/atalhosdahome/shortcutcontroller
+        icon: icon-rocket
+        sideMenu:
+            atalho-tipo:
+                label: 'Tipos de atalho'
+                url: cnu/atalhosdahome/shortcuttypecontroller
+                icon: icon-sitemap
+            atalhos:
+                label: Atalhos
+                url: cnu/atalhosdahome/shortcutcontroller
+                icon: icon-rocket
+            atalho-conteudo:
+                label: Conteúdo
+                url: cnu/atalhosdahome/testedeRota
+                icon: icon-sitemap
+

@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: Título
+        type: text
+    has_url:
+        label: 'Tem URL?'
+        type: text
+    url:
+        label: URL
+        type: text
+    menu:
+        label: Menu
+        relation: menu
+        select: title

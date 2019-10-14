@@ -1,0 +1,10 @@
+name: CategoryController
+form: $/cnu/megamenu/models/category/fields.yaml
+modelClass: cnu\MegaMenu\Models\Category
+defaultRedirect: cnu/megamenu/categorycontroller
+create:
+    redirect: 'cnu/megamenu/categorycontroller/update/:id'
+    redirectClose: cnu/megamenu/categorycontroller
+update:
+    redirect: cnu/megamenu/categorycontroller
+    redirectClose: cnu/megamenu/categorycontroller
